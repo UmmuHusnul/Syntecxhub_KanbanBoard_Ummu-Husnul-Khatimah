@@ -38,7 +38,7 @@ Built using vanilla JavaScript, this project allows users to organize their work
 
 - **HTML5**: Semantic structure for columns and cards.
 - **CSS3**: Custom styling, responsive layout, and transitions.
-- **JavaScript (ES6+)**: Drag and Drop API and LocalStorage integration.
+- **JavaScript**: Drag and Drop API and LocalStorage integration.
 
 ---
 
