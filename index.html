@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JOURNAL BOARD</h1>
+
+    <div class="board">
+        <div class="column" id="todo">
+            <div class="column-header">
+                <h2>To-Do (<span>0</span>)</h2>
+                <button class="add-task">+</button>
+            </div>
+            <div class="task-list"></div>
+        </div>
+
+        <div class="column" id="doing">
+            <div class="column-header">
+                <h2>Doing (<span>0</span>)</h2>
+                <button class="add-task">+</button>
+            </div>
+            <div class="task-list"></div>
+        </div>
+
+        <div class="column" id="done">
+            <div class="column-header">
+                <h2>Done (<span>0</span>)</h2>
+                <button class="add-task">+</button>
+            </div>
+            <div class="task-list"></div>
+        </div>
+    </div>
+
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <h2>New Task</h2>
+            <input id="taskInput" type="text" placeholder="What are your plans for today??">
+            <div class="modal-buttons">
+                <button id="cancelBtn">Cancel</button>
+                <button id="saveBtn">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
